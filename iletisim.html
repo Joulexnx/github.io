@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canon 650D</title>
+    <title>iletisim</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,7 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&family=Zen+Dots&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
@@ -30,7 +30,7 @@
             <li><a href="iletisim.html">İletişim</a></li>
         </ul>
     </nav>
-</header>
+    </header>
 
 
     <header>
@@ -40,6 +40,30 @@
         <p>"Her kare bir hikâye, her an bir sanat!"</p>
         <a href="#" class="Btn">Daha Fazla</a>
     </header>
+
+   <!-- İletişim İçeriği -->
+   <main class="contact-container">
+    <section class="contact-header">
+        <h1>Bizimle İletişime Geçin</h1>
+        <p>Aşağıdaki formu doldurarak bizimle iletişime geçebilirsiniz.</p>
+    </section>
+
+    <section class="contact-form">
+        <form action="https://formspree.io/f/{your-form-endpoint}" method="POST">
+            <label for="name">Adınız</label>
+            <input type="text" id="name" name="name" placeholder="Adınızı girin" required>
+
+            <label for="email">E-posta</label>
+            <input type="email" id="email" name="email" placeholder="E-posta adresinizi girin" required>
+
+            <label for="message">Mesajınız</label>
+            <textarea id="message" name="message" rows="5" placeholder="Mesajınızı buraya yazın" required></textarea>
+
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+</main>
+
 
     <main>
         <section id="section-a">
@@ -141,6 +165,8 @@
             powerd by <a href="#">Batuhan Alper Oyanık</a>
         </div>
     </footer>
+
+    </main>
 
 </body>
 
